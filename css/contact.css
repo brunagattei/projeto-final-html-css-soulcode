@@ -1,0 +1,96 @@
+.contato {
+    text-align: center;
+    padding: 10px;
+}
+.contato h1 {
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.contato_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contato_img{}
+
+.form_container{
+ width: 500px;
+ height: 350px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+form{
+    width: 500px;
+}
+
+
+.contato_form form{
+    padding: 20px;
+    line-height: 30px;
+}
+
+.contato_form input {
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.contato_form input, textarea {
+    background-color: #C4C4C4;
+    border: none;
+}
+
+.contato_form textarea{
+    width: 70%;
+    border-radius: 5px;
+    margin-left: 50px ;
+}
+
+.enviar_contato {
+    padding: 10px 20px;
+    margin-left: 180px;
+    border: 1px solid #EF3A5D;
+    background-color: #EF3A5D;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    position: relative;    
+}
+
+@media (max-width: 980px){
+
+    
+    .header_nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .contato_img{
+        display: none;
+    }
+
+}
+
+@media (max-width: 150px){
+
+    .main_container h1 {
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+ 
+
+}

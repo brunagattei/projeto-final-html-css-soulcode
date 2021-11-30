@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+}
+
+.header_top{
+    top: 0px;
+}
+
+.main_container{
+    margin-top: 100px;
+}
+
+
+.header_titulo{
+    font-family: "roboto" sans-serif;
+    text-align: center;
+    text-decoration:underline;
+}
+
+.secao {
+    margin-top: 90px;
+}
+
+.pj1{
+    font-family: "roboto" sans-serif;
+    font-size: 17px;
+}
+
+
+
+.pj2{
+    font-family: "roboto" sans-serif;
+    font-size: 17px;
+}
+
+
+
+.pj3{
+    font-family: "roboto" sans-serif;
+    font-size: 17px;
+}
+
+ @media (max-width: 480px) {
+    img {
+        width: 300px;
+    }   
+ }
